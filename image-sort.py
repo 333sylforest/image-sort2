@@ -16,10 +16,6 @@ image_filenames = os.listdir(clarifai_images_path)
 
 # START CODING HERE
 
-os.mkdir("/Users/kimberleyellars/github/image-sort2/puppy")
-os.mkdir("/Users/kimberleyellars/github/image-sort2/tree")
-os.mkdir("/Users/kimberleyellars/github/image-sort2/city")
-os.mkdir("/Users/kimberleyellars/github/image-sort2/cream")
 
 # 1. Loop through all the files in clarifai_images
 for image_filename in image_filenames:
